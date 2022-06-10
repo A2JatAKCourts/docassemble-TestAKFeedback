@@ -1,0 +1,12 @@
+metadata:
+  title: Default playground interview
+  short title: Test
+  comment: This is a learning tool.  Feel free to write over it.
+---
+include:
+  - docassemble.AssemblyLine:al_package.yml
+---
+mandatory: True
+code: |
+  docket_number
+---
