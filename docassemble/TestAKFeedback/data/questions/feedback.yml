@@ -1,0 +1,17 @@
+---
+include:
+  - docassemble.GithubFeedbackForm:feedback.yml
+---
+code: |
+  al_feedback_form_title = "AkA2JCourts Guided Assistant Feedback"  
+---
+code: |
+  # This email will be used ONLY if there is no valid GitHub config
+  al_error_email = "crobinson@akcourts.gov"
+---
+code: |
+  # Will be the name of the Github label added to new issues
+  al_github_label = 'user feedback'
+---
+
+
